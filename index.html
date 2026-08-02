@@ -31,7 +31,11 @@
     </header>
 
     <script>
-        const home = document.querySelector("#home");
+        const home = document.querySelector("li");
+
+        home.addEventListener("click", () => {
+            home.textContent = "Rumah";
+        });
     </script>
 </body>
 </html>
